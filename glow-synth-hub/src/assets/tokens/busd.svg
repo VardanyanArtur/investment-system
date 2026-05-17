@@ -1,0 +1,5 @@
+<!-- busd.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="60" fill="#F0B90B"></rect>
+  <path fill="#FFF" d="M128 44L84 88l-28-28L128 4l72 72-28 28-44-44zM156 116l28-28 28 28-28 28-28-28zM44 128l28-28 28 28-28 28-28-28zM128 212l44-44 28 28-72 72-72-72 28-28 44 44z"></path>
+</svg>

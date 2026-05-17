@@ -1,0 +1,18 @@
+<!-- solana.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398 311">
+  <linearGradient id="sol1" x1="0" y1="0" x2="100%" y2="0">
+    <stop offset="0%" stop-color="#00FFA3"></stop>
+    <stop offset="100%" stop-color="#DC1FFF"></stop>
+  </linearGradient>
+  <linearGradient id="sol2" x1="0" y1="0" x2="100%" y2="0">
+    <stop offset="0%" stop-color="#00FFA3"></stop>
+    <stop offset="100%" stop-color="#DC1FFF"></stop>
+  </linearGradient>
+  <linearGradient id="sol3" x1="0" y1="0" x2="100%" y2="0">
+    <stop offset="0%" stop-color="#00FFA3"></stop>
+    <stop offset="100%" stop-color="#DC1FFF"></stop>
+  </linearGradient>
+  <path fill="url(#sol1)" d="M64 52h254l-46 46H18z"></path>
+  <path fill="url(#sol2)" d="M64 132h254l-46 46H18z" transform="translate(0 60) scale(1 -1) translate(0 -60)"></path>
+  <path fill="url(#sol3)" d="M64 212h254l-46 46H18z"></path>
+</svg>

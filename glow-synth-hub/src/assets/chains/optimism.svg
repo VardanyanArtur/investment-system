@@ -1,0 +1,5 @@
+<!-- optimism.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <circle cx="250" cy="250" r="250" fill="#FF0420"></circle>
+  <text x="50%" y="54%" text-anchor="middle" fill="#FFF" font-size="200" font-family="Arial" font-weight="bold">OP</text>
+</svg>

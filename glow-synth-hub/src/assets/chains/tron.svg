@@ -1,0 +1,5 @@
+<!-- tron.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <path fill="#FF060A" d="M128 0l128 256H0L128 0z"></path>
+  <path fill="#FFF" d="M128 28L31 230h194L128 28zm0 44l71 132H57l71-132z"></path>
+</svg>

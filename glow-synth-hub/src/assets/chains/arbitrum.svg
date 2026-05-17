@@ -1,0 +1,6 @@
+<!-- arbitrum.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" fill="#28A0F0"></circle>
+  <path fill="#FFF" d="M82 176l28-97h29l-28 97h-29zm64 0l28-97h29l-28 97h-29z"></path>
+  <path fill="#1A1A1A" d="M128 15l97 56.5v113L128 241l-97-56.5v-113L128 15z"></path>
+</svg>

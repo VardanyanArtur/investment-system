@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# build folders
+dist/
+build/
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# package locks (optional)
+package-lock.json
+yarn.lock
+
+# python
+__pycache__/
+*.pyc

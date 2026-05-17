@@ -1,0 +1,5 @@
+<!-- lightning.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" fill="#F6C915"></circle>
+  <path fill="#FFF" d="M116 28L44 148h52l-12 80 72-120h-48l8-80z"></path>
+</svg>

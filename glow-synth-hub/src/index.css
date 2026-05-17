@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 20% 5%;
+    --foreground: 0 0% 100%;
+
+    --card: 220 20% 8%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 220 20% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 195 100% 50%;
+    --primary-foreground: 220 20% 5%;
+
+    --secondary: 280 100% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 195 100% 50%;
+    --accent-foreground: 220 20% 5%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 195 100% 50%;
+    --input: 220 20% 15%;
+    --ring: 195 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Neon glow colors */
+    --neon-blue: 195 100% 50%;
+    --neon-purple: 280 100% 60%;
+    --neon-cyan: 180 100% 50%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 50%), hsl(280 100% 60%));
+    --gradient-card: linear-gradient(180deg, hsl(220 20% 8%), hsl(220 20% 5%));
+    
+    /* Shadows & Glows */
+    --glow-primary: 0 0 20px hsl(195 100% 50% / 0.5), 0 0 40px hsl(195 100% 50% / 0.3);
+    --glow-secondary: 0 0 20px hsl(280 100% 60% / 0.5), 0 0 40px hsl(280 100% 60% / 0.3);
+    --shadow-neon: 0 0 10px hsl(195 100% 50% / 0.7), 0 0 30px hsl(195 100% 50% / 0.4), 0 0 50px hsl(195 100% 50% / 0.2);
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 195 100% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 80% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 195 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 85%;
+    --input: 220 15% 90%;
+    --ring: 195 100% 40%;
+
+    /* Neon glow colors for light mode */
+    --neon-blue: 195 100% 40%;
+    --neon-purple: 280 80% 50%;
+    --neon-cyan: 180 100% 40%;
+    
+    /* Gradients for light mode */
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 40%), hsl(280 80% 50%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 98%), hsl(0 0% 100%));
+    
+    /* Shadows & Glows for light mode */
+    --glow-primary: 0 0 15px hsl(195 100% 40% / 0.3), 0 0 30px hsl(195 100% 40% / 0.2);
+    --glow-secondary: 0 0 15px hsl(280 80% 50% / 0.3), 0 0 30px hsl(280 80% 50% / 0.2);
+    --shadow-neon: 0 0 8px hsl(195 100% 40% / 0.5), 0 0 20px hsl(195 100% 40% / 0.3), 0 0 40px hsl(195 100% 40% / 0.15);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
