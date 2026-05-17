@@ -1,4 +1,4 @@
-import React from "react";
+git commit -m "Fix gitignore and add project files"import React from "react";
 import { Navigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 
